@@ -1,0 +1,24 @@
+.ReservationPage {
+ padding: 20px;
+}
+.ReservationPage__title {
+ font-size: 24px;
+ margin-bottom: 20px;
+}
+.ReservationPage__form_reviews {
+ margin-bottom: 20px;
+}
+.ReservationPage__reserveCards {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+ gap: 20px;
+}
+.ReservationPage__reserveCard {
+ border: 1px solid #ccc;
+ border-radius: 5px;
+ padding: 20px;
+ background-color: #f9f9f9;
+}
+.ReservationPage__reserveCard:hover {
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

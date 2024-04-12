@@ -1,0 +1,36 @@
+.HotelsIdPage {
+ padding: 20px;
+}
+.HotelsIdPage__title {
+ font-size: 24px;
+ margin-bottom: 10px;
+}
+.HotelsIdPage__rating {
+ font-size: 18px;
+ color: #888;
+ margin-bottom: 10px;
+}
+.HotelsIdPage__slider {
+ margin-bottom: 20px;
+}
+.HotelsIdPage__slider img {
+ max-width: 100%;
+ height: auto;
+}
+.HotelsIdPage__map {
+ margin-top: 10px;
+}
+.HotelsIdPage__details {
+ margin-top: 20px;
+}
+.HotelsIdPage__cityTitle {
+ font-size: 20px;
+ margin-bottom: 10px;
+}
+.HotelsIdPage__address {
+ font-style: italic;
+ margin-bottom: 10px;
+}
+.HotelsIdPage__description {
+ margin-top: 10px;
+}

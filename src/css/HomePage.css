@@ -1,0 +1,43 @@
+.HomePage__filter { 
+ display: flex;
+ background: skyblue;
+ box-sizing: border-box;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+}
+.HomePage__inputContainer {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 40%; 
+}
+.HomePage__input {
+ width: 60%;
+ height: 35px;
+ text-align: center;
+ border: 1px solid #ccc;
+ border-radius: 7px;
+}
+.HomePage__aside {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 30%;
+}
+.HomePage__asideTitleCategory {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 30%;
+}
+.HomePage__hotelContainer {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ flex-basis: calc(33.33% - 10px);
+ margin-bottom: 20px;
+}
+.HomePage__asideTitlePrice {
+ padding: 20px;
+}

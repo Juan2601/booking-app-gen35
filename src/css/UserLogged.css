@@ -1,0 +1,25 @@
+.UserLogged {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ box-sizing: border-box;
+}
+.UserLogged__header {
+ display: block;
+ text-align: center;
+}
+.UserLogged__name {
+ font-size: 30px;
+}
+.UserLogged__button {
+ background-color: #007bff;
+ color: #fff;
+ border: none;
+ border-radius: 5px;
+ padding: 10px;
+ cursor: pointer;
+}
+.UserLogged__buttonContainer {
+ margin-top: 10px;
+ margin-bottom: 40px;
+}

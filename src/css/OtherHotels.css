@@ -1,0 +1,15 @@
+.OtherHotels {
+ margin-top: 20px;
+}
+.OtherHotels__header {
+ font-size: 20px;
+ margin-bottom: 10px;
+}
+.OtherHotels__cityName {
+ font-weight: bold;
+}
+.OtherHotels__hotelContainer {
+ display: grid;
+ grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+ gap: 20px;
+}

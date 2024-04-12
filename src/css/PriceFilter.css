@@ -1,0 +1,33 @@
+.PriceFilter__title {
+text-align: center;
+}
+
+.PriceFilter__form {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+}
+
+.PriceFilter__labelText {
+ text-align: left;
+}
+
+.PriceFilter__input {
+ padding: 5px;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+}
+
+.PriceFilter__button {
+ padding: 6px;
+ background-color: #007bff;
+ color: white;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ 
+}
+
+.PriceFilter__button:hover {
+ background-color: #0056b3;
+}

@@ -1,0 +1,50 @@
+.HotelCard {
+ display: flex;
+ flex-direction: column;
+ width: 300px;
+ margin: 10px;
+ border: 1px solid #ddd;
+ border-radius: 4px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.HotelCard__image {
+ width: 100%;
+ height: 200px;
+ object-fit: cover;
+}
+.HotelCard__content {
+ padding: 20px;
+}
+.HotelCard__name {
+ font-size: 18px;
+ font-weight: bold;
+ margin-bottom: 5px;  
+}
+.HotelCard__rating {
+ margin-bottom: 10px;
+ font-size: 14px;
+ color: #888;
+}
+.HotelCard__location {
+ font-size: 14px;
+ color: #6c757d; 
+}
+.HotelCard__price {
+ font-size: 16pxs;
+ font-weight: bold;
+ margin-top: 10px;
+}
+.HotelCard__button {
+ margin-top: 10px;
+ padding: 10px 15px;
+ border: 1px solid #ddd;
+ border-radius: 4px;
+ background-color: #fff;
+ color: #282c34;
+ font-size: 14px;
+ cursor: pointer;
+ transition: all 0.2s ease-in-out;
+}
+.HotelCard__button:hover {
+ background-color: #f7f7f7;
+}

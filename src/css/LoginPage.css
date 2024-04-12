@@ -1,0 +1,37 @@
+.LoginPage {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+.LoginPage__form {
+ width: 300px;
+}
+.LoginPage__label {
+ display: block;
+ margin-bottom: 10px;
+}
+.LoginPage__input {
+ width: 100%;
+ padding: 8px;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ -ms-border-radius: 5px;
+ -o-border-radius: 5px;
+}
+.LoginPage__button {
+ display: block;
+ width: 100%;
+ padding: 10px;
+ background-color: #007bff;
+ color: #fff;
+ border: none;
+ border-radius: 5px;
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ -ms-border-radius: 5px;
+ -o-border-radius: 5px;
+ cursor: pointer;
+}
